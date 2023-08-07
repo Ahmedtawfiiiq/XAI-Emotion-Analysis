@@ -1,0 +1,13 @@
+There is NO official lrp package than can be used.
+grad-cam can in fact be used with transformers with the "official" package.
+grad-cam can be used with "vision" transformers with the "official" package.
+grad-cam can't be used with classical ml
+Lime and SHAP don't care about the type of model.
+grad-cam works only on pytorch
+https://github.com/albermax/innvestigate is an lrp implementation using keras
+https://github.com/chr5tphr/zennit is an lrp implementation using pytorch
+https://github.com/jacobgil/pytorch-grad-cam is a grad-cam pytorch implementation
+Both lrp and grad-cam have relatively complete implementation for CNNs
+Both can be used in NLP but with CNN models only (no attention-based or transformer-based models)
+Both have incomplete implementation in case of attention-based or transformer-based models
+Both LRP and grad-cam CAN be used with attention-based or transformer-based models but we will need to implement them from scratch
